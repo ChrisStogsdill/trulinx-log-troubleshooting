@@ -11,5 +11,6 @@ for file in os.listdir(tempLogsDir):
             print(readLines[0].strip('\n\r'))
             print(readLines[2].strip('\n\r'))
             print(readLines[3])
+    f.close()
 
 
