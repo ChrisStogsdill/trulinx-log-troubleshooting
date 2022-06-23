@@ -11,7 +11,14 @@ for file in os.listdir(tempLogsDir):
             if "Copying" in line:
                 time1 = readLines[counter][0:19]
                 time1Object = datetime.strptime(time1, "%m/%d/%Y %H:%M:%S")
-                time2 = readLines[counter+1][0:19]
+
+                # sometimes the line after Copying does not exist. 
+                # Need to continue the loop when that happens
+                try:
+                    time2 = readLines[counter+1][0:19]
+                except: 
+                    continue
+
                 time2Object = datetime.strptime(time2, "%m/%d/%Y %H:%M:%S")
                 totalTime = time2Object - time1Object
                 if totalTime.seconds > 5:
