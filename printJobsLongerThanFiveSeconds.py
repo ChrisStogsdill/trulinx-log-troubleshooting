@@ -17,6 +17,9 @@ for file in os.listdir(tempLogsDir):
                 try:
                     time2 = readLines[counter+1][0:19]
                 except: 
+                    print('DID NOT PRINT')
+                    print(readLines[0].strip())
+                    print(file + "\n")
                     continue
 
                 time2Object = datetime.strptime(time2, "%m/%d/%Y %H:%M:%S")
