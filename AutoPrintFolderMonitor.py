@@ -61,7 +61,7 @@ class Handler(FileSystemEventHandler):
 
             # sleep for 5 seconds otherwise it will open before being fully created.
             time.sleep(5)
-            print("Watchdog received created event - % s." % event.src_path)
+            # print("Watchdog received created event - % s." % event.src_path)
             with open(event.src_path, 'r') as f:
                 readLines = f.readlines()
                 counter = 0
@@ -82,7 +82,7 @@ class Handler(FileSystemEventHandler):
 
                             print('DID NOT PRINT')
                             print(readLines[0].strip())
-                            print(time1Object + " - " + event.src_path + "\n")
+                            print(f"{time1Object} - {event.src_path} \n")
                             sendEmail(message = emailBody, subject = emailSubject, emailTo = "cstogsdill@midwesthose.com", emailFrom = "chris1stogsdill@gmail.com")
                             continue
                         
