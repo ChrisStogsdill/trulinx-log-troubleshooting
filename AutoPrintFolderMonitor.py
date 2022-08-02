@@ -6,6 +6,7 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 import os
 from datetime import datetime
+from sendEmail import sendEmail
 
 
 
@@ -57,6 +58,8 @@ class Handler(FileSystemEventHandler):
   
         elif event.event_type == 'created':
             # Event is created, you can process it now
+
+            # sleep for 5 seconds otherwise it will open before being fully created.
             time.sleep(5)
             print("Watchdog received created event - % s." % event.src_path)
             with open(event.src_path, 'r') as f:
@@ -73,21 +76,15 @@ class Handler(FileSystemEventHandler):
                         try:
                             time2 = readLines[counter+1][0:19]
                         except: 
+                            emailBody = f"""Failed Auto Print
+                                            {time1Object} - {event.src_path}"""
+                            emailSubject = "Failed Auto Print"
+
                             print('DID NOT PRINT')
                             print(readLines[0].strip())
                             print(time1Object + " - " + event.src_path + "\n")
+                            sendEmail(message = emailBody, subject = emailSubject, emailTo = "cstogsdill@midwesthose.com", emailFrom = "chris1stogsdill@gmail.com")
                             continue
-
-                        time2Object = datetime.strptime(time2, "%m/%d/%Y %H:%M:%S")
-                        totalTime = time2Object - time1Object
-                        if totalTime.seconds > 5:
-                            print (readLines[0].strip('\n\r'))
-                            if "Counter Order" in readLines[25]:
-                                print (readLines[25].strip('\n\r'))
-                            print(readLines[counter].strip('\n\r'))
-                            print(readLines[counter+1].strip('\n\r'))
-                            print('time to copy ',totalTime , '\n')
-                            
                         
                     counter += 1
             f.close()
