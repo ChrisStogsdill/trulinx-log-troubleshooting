@@ -59,8 +59,8 @@ class Handler(FileSystemEventHandler):
         elif event.event_type == 'created':
             # Event is created, you can process it now
 
-            # sleep for 5 seconds otherwise it will open before being fully created.
-            time.sleep(5)
+            # sleep for 3 minutes to try and cut down on false positives.
+            time.sleep(180)
             # print("Watchdog received created event - % s." % event.src_path)
             with open(event.src_path, 'r') as f:
                 readLines = f.readlines()
@@ -76,8 +76,7 @@ class Handler(FileSystemEventHandler):
                         try:
                             time2 = readLines[counter+1][0:19]
                         except: 
-                            emailBody = f"""Failed Auto Print
-                                            {time1Object} - {event.src_path}"""
+                            emailBody = f"""Failed Auto Print \n{time1Object} - {event.src_path}"""
                             emailSubject = "Failed Auto Print"
 
                             print('DID NOT PRINT')
