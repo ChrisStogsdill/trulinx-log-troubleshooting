@@ -61,31 +61,35 @@ class Handler(FileSystemEventHandler):
 
             # sleep for 3 minutes to try and cut down on false positives.
             time.sleep(180)
-            # print("Watchdog received created event - % s." % event.src_path)
-            with open(event.src_path, 'r') as f:
-                readLines = f.readlines()
-                counter = 0
-                for line in readLines:
-                    
-                    if "Copying" in line:
-                        time1 = readLines[counter][0:19]
-                        time1Object = datetime.strptime(time1, "%m/%d/%Y %H:%M:%S")
-
-                        # sometimes the line after Copying does not exist. 
-                        # Need to continue the loop when that happens
-                        try:
-                            time2 = readLines[counter+1][0:19]
-                        except: 
-                            emailBody = f"""Failed Auto Print \n{time1Object} - {event.src_path}"""
-                            emailSubject = "Failed Auto Print"
-
-                            print('DID NOT PRINT')
-                            print(readLines[0].strip())
-                            print(f"{time1Object} - {event.src_path} \n")
-                            sendEmail(message = emailBody, subject = emailSubject, emailTo = "cstogsdill@midwesthose.com", emailFrom = "chris1stogsdill@gmail.com")
-                            continue
+            
+            # sometimes the file just doesn't exist anymore. wrapping in a try statement
+            try: 
+                with open(event.src_path, 'r') as f:
+                    readLines = f.readlines()
+                    counter = 0
+                    for line in readLines:
                         
+                        if "Copying" in line:
+                            time1 = readLines[counter][0:19]
+                            time1Object = datetime.strptime(time1, "%m/%d/%Y %H:%M:%S")
+
+                            # sometimes the line after Copying does not exist. 
+                            # Need to continue the loop when that happens
+                            try:
+                                time2 = readLines[counter+1][0:19]
+                            except: 
+                                emailBody = f"""Failed Auto Print \n{time1Object} - {event.src_path}"""
+                                emailSubject = "Failed Auto Print"
+
+                                print('DID NOT PRINT')
+                                print(readLines[0].strip())
+                                print(f"{time1Object} - {event.src_path} \n")
+                                sendEmail(message = emailBody, subject = emailSubject, emailTo = "cstogsdill@midwesthose.com", emailFrom = "chris1stogsdill@gmail.com")
+                                continue
+                            
                     counter += 1
+            except Exception as e: 
+                print(e)
             f.close()
         # elif event.event_type == 'modified':
             # Event is modified, you can process it now
