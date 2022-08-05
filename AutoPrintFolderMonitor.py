@@ -61,7 +61,7 @@ class Handler(FileSystemEventHandler):
 
             # sleep for 3 minutes to try and cut down on false positives.
             time.sleep(180)
-            
+
             # sometimes the file just doesn't exist anymore. wrapping in a try statement
             try: 
                 with open(event.src_path, 'r') as f:
@@ -85,12 +85,15 @@ class Handler(FileSystemEventHandler):
                                 print(readLines[0].strip())
                                 print(f"{time1Object} - {event.src_path} \n")
                                 sendEmail(message = emailBody, subject = emailSubject, emailTo = "cstogsdill@midwesthose.com", emailFrom = "chris1stogsdill@gmail.com")
-                                continue
+                                continue    
+                        counter += 1   
+                                    
+                    f.close()
                             
-                    counter += 1
+                    
             except Exception as e: 
                 print(e)
-            f.close()
+            
         # elif event.event_type == 'modified':
             # Event is modified, you can process it now
             # print("Watchdog received modified event - % s." % event.src_path)
