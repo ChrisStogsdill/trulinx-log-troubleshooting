@@ -1,16 +1,15 @@
-import sys
 import time
-import logging
 import subprocess
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
-import os
 from datetime import datetime
 from sendEmail import sendEmail
 
 
 
 # powershell command to run on Trulinx server
+# This doesnt need to be here anymore. mainly keeping it here to make sure the script is still running
+# and to be an example of running a command on a server
 listComApps = r"""
 Invoke-Command -ComputerName corp-app-11 -ScriptBlock {
     $comAdmin = New-Object -com ("COMAdmin.COMAdminCatalog.1")
@@ -28,10 +27,12 @@ Invoke-Command -ComputerName corp-app-11 -ScriptBlock {
 testOutput = subprocess.run(["powershell", "-Command", listComApps], capture_output=True)
 print (testOutput.stdout.splitlines())
 
+# Setting up the folder watch class
 class OnMyWatch:
     # Set the directory on watch
     watchDirectory = r"\\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs"
   
+    # initialize the class with the observer method
     def __init__(self):
         self.observer = Observer()
   
@@ -63,20 +64,24 @@ class Handler(FileSystemEventHandler):
             time.sleep(180)
 
             # sometimes the file just doesn't exist anymore. wrapping in a try statement
+            # in order to not fail out the whole program when that happens
             try: 
+                # Open the file
                 with open(event.src_path, 'r') as f:
                     readLines = f.readlines()
+                    # Set counter up to be able to read through each line
                     counter = 0
                     for line in readLines:
-                        
+                        # Find Copying in the line
                         if "Copying" in line:
                             time1 = readLines[counter][0:19]
                             time1Object = datetime.strptime(time1, "%m/%d/%Y %H:%M:%S")
 
-                            # sometimes the line after Copying does not exist. 
-                            # Need to continue the loop when that happens
+                            # Make sure the line after "copying" exists
                             try:
                                 time2 = readLines[counter+1][0:19]
+                            
+                            # if the line after does not exist, then an email needs to be sent
                             except: 
                                 emailBody = f"""Failed Auto Print \n{time1Object} - {event.src_path}"""
                                 emailSubject = "Failed Auto Print"
@@ -86,8 +91,10 @@ class Handler(FileSystemEventHandler):
                                 print(f"{time1Object} - {event.src_path} \n")
                                 sendEmail(message = emailBody, subject = emailSubject, emailTo = "cstogsdill@midwesthose.com", emailFrom = "chris1stogsdill@gmail.com")
                                 continue    
-                        counter += 1   
-                                    
+                        # Increment counter for the next loop.
+                        counter += 1
+                           
+                    # Close the file 
                     f.close()
                             
                     
