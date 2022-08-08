@@ -5,7 +5,7 @@ from watchdog.events import FileSystemEventHandler
 from datetime import datetime
 from sendEmail import sendEmail
 
-
+workingFileDict = {}
 
 # powershell command to run on Trulinx server
 # This doesnt need to be here anymore. mainly keeping it here to make sure the script is still running
@@ -59,9 +59,11 @@ class Handler(FileSystemEventHandler):
   
         elif event.event_type == 'created':
             # Event is created, you can process it now
-
+            currentTime = time.strftime("%Y-%m-%d %H:%M:%S")
             # sleep for 3 minutes to try and cut down on false positives.
-            time.sleep(180)
+            time.sleep(10)
+
+            print(f"{currentTime} - Created File event - {event.src_path}")
 
             # sometimes the file just doesn't exist anymore. wrapping in a try statement
             # in order to not fail out the whole program when that happens
@@ -83,19 +85,46 @@ class Handler(FileSystemEventHandler):
                             
                             # if the line after does not exist, then an email needs to be sent
                             except: 
-                                emailBody = f"""Failed Auto Print \n{time1Object} - {event.src_path}"""
-                                emailSubject = "Failed Auto Print"
+                                # add the event and timestamp to workingFileDict so that it can be checked later
+                                workingFileDict.update({event.src_path: time1Object})
 
-                                print('DID NOT PRINT')
+                                
+                                print('WorkingFileDict updated')
                                 print(readLines[0].strip())
                                 print(f"{time1Object} - {event.src_path} \n")
-                                sendEmail(message = emailBody, subject = emailSubject, emailTo = "cstogsdill@midwesthose.com", emailFrom = "chris1stogsdill@gmail.com")
+                                # sendEmail(message = f"Failed Auto Print \n{time1Object} - {event.src_path}", subject = "Failed Auto Print", emailTo = "cstogsdill@midwesthose.com", emailFrom = "chris1stogsdill@gmail.com")
                                 continue    
                         # Increment counter for the next loop.
                         counter += 1
-                           
+
                     # Close the file 
                     f.close()
+
+                # check the status of each item in workingFileDict
+                keyList = list(workingFileDict.keys())
+                for i in range(len(keyList)):
+                    currentTime = datetime.now()
+                    docTime = workingFileDict[keyList[i]]
+                    timeDifference = currentTime - docTime
+                    if (timeDifference.seconds > 180) :
+                        print(currentTime - docTime)
+                        with open(keyList[i], "r") as file:
+                            lines = file.readlines()
+                            lineCounter = 0
+                            for line in lines:
+                                if "Copying" in line :
+                                    try:
+                                        testLine = lines[lineCounter+1]
+                                        # if testLine does not throw an error, then clear out the entry
+                                        workingFileDict.pop(keyList[i])
+                                        # if TestLine fails, send the email
+                                    except: 
+                                        sendEmail(message = f"Failed Auto Print \n{docTime} - {keyList[i]} \n\nTotal items\n {list(workingFileDict.keys())}", subject = "Failed Auto Print", emailTo = "cstogsdill@midwesthose.com", emailFrom = "chris1stogsdill@gmail.com")
+                                        workingFileDict.clear()
+
+                                lineCounter += 1
+                            file.close()                 
+                        
                             
                     
             except Exception as e: 
