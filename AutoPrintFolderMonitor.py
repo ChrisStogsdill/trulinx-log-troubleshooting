@@ -86,12 +86,13 @@ class Handler(FileSystemEventHandler):
                             # if the line after does not exist, then an email needs to be sent
                             except: 
                                 # add the event and timestamp to workingFileDict so that it can be checked later
+
                                 workingFileDict.update({event.src_path: time1Object})
 
                                 
-                                print('WorkingFileDict updated')
+                                print('Potential issue detected - WorkingFileDict updated')
                                 print(readLines[0].strip())
-                                print(f"{time1Object} - {event.src_path} \n")
+                                
                                 # sendEmail(message = f"Failed Auto Print \n{time1Object} - {event.src_path}", subject = "Failed Auto Print", emailTo = "cstogsdill@midwesthose.com", emailFrom = "chris1stogsdill@gmail.com")
                                 continue    
                         # Increment counter for the next loop.
@@ -114,11 +115,14 @@ class Handler(FileSystemEventHandler):
                             for line in lines:
                                 if "Copying" in line :
                                     try:
+                                        print(f"testing - {keyList[i]}")
                                         testLine = lines[lineCounter+1]
                                         # if testLine does not throw an error, then clear out the entry
                                         workingFileDict.pop(keyList[i])
+                                        print("File printed successfully - removing from WorkingFileDict")
                                         # if TestLine fails, send the email
                                     except: 
+                                        print("Test Failed - Sending email")
                                         sendEmail(message = f"Failed Auto Print \n{docTime} - {keyList[i]} \n\nTotal items\n {list(workingFileDict.keys())}", subject = "Failed Auto Print", emailTo = "cstogsdill@midwesthose.com", emailFrom = "chris1stogsdill@gmail.com")
                                         workingFileDict.clear()
 
