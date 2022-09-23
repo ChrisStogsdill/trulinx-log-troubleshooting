@@ -20,10 +20,18 @@ Invoke-Command -ComputerName corp-app-11 -ScriptBlock {
     {
     Write-Host $application.Name
     }
-
+}
+"""
+# text for restarting the trulinx com service
+restartTrulinxComApp = r"""
+Invoke-Command -ComputerName corp-app-11 -ScriptBlock {
+    $comAdmin = New-Object -com ("COMAdmin.COMAdminCatalog.1")
+    $comAdmin.ShutdownApplication("TrulinX")
+    $comAdmin.StartApplication("TrulinX")
 }
 """
 
+# this both serves to test the subprocess but also makes sure powershell is prepared for it.
 testOutput = subprocess.run(["powershell", "-Command", listComApps], capture_output=True)
 print (testOutput.stdout.splitlines())
 
@@ -122,8 +130,13 @@ class Handler(FileSystemEventHandler):
                                         print("File printed successfully - removing from WorkingFileDict")
                                         # if TestLine fails, send the email
                                     except: 
+                                        # restart trulinx com service
+                                        # print("restarting trulinx com app")
+                                        # restartCommand = subprocess.run(["powershell", "-Command", restartTrulinxComApp], capture_output=True)
+                                        # print (restartCommand.stdout.splitlines())
                                         print("Test Failed - Sending email")
-                                        sendEmail(message = f"Failed Auto Print \n{docTime} - {keyList[i]} \n\nTotal items\n {list(workingFileDict.keys())}", subject = "Failed Auto Print", emailTo = "cstogsdill@midwesthose.com", emailFrom = "chris1stogsdill@gmail.com")
+                                        # Send Email
+                                        sendEmail(message = f"Failed Auto Print \n\n\n{docTime} - {keyList[i]} \n\nTotal items\n {list(workingFileDict.keys())}", subject = "Failed Auto Print", emailTo = "cstogsdill@midwesthose.com", emailFrom = "chris1stogsdill@gmail.com")
                                         workingFileDict.clear()
 
                                 lineCounter += 1

@@ -1,12 +1,2 @@
-# use invoke command to run on trulinx server
-Invoke-Command -ComputerName corp-app-11 -ScriptBlock {
-    $comAdmin = New-Object -com ("COMAdmin.COMAdminCatalog.1")
-    $applications = $comAdmin.GetCollection("Applications") 
-    $applications.Populate() 
-
-    foreach ($application in $applications)
-    {
-    Write-Host $application.Name
-    }
-
-}
+# get a list of files that are within 6 to 3 minutes old.
+Get-ChildItem -Path \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs | Where-Object {$_.LastWriteTime -gt (Get-Date).AddMinutes(-6) -and $_.LastWriteTime -lt (Get-Date).AddMinutes(-3)}
