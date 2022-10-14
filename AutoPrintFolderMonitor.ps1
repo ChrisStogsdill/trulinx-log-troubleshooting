@@ -1,2 +1,6 @@
-# get a list of files that are within 6 to 3 minutes old.
-Get-ChildItem -Path \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs | Where-Object {$_.LastWriteTime -gt (Get-Date).AddMinutes(-6) -and $_.LastWriteTime -lt (Get-Date).AddMinutes(-3)}
+# This script will keep calling the AutoPrintFolderMonitor python script. 
+# Trying to run the python script by itself will stop working overnight for some reason
+# It is now set to stop itself after about 5 hours, this script will keep calling it when it stops itself.
+while ($true) {
+    python .\AutoPrintFolderMonitor.py
+}

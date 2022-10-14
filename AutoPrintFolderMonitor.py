@@ -45,15 +45,26 @@ class OnMyWatch:
         self.observer = Observer()
   
     def run(self):
+        startTime = datetime.now()
         event_handler = Handler()
-        self.observer.schedule(event_handler, self.watchDirectory, recursive = True)
+        self.observer.schedule(event_handler, self.watchDirectory, recursive = False)
         self.observer.start()
+
         try:
             while True:
-                time.sleep(1)
-        except:
+                time.sleep(5)
+                timeRunning = datetime.now() - startTime
+                # check how long this has been running. Stop after Time in seconds
+                if timeRunning.seconds > 18000:
+                    print ("time limit reached. Stopping observer")
+                    self.observer.stop()
+                    print("Stopped")
+                    return "Stopped"
+        except Exception as e:
             self.observer.stop()
+
             print("Observer Stopped")
+            print(e)
   
         self.observer.join()
   
@@ -131,12 +142,12 @@ class Handler(FileSystemEventHandler):
                                         # if TestLine fails, send the email
                                     except: 
                                         # restart trulinx com service
-                                        # print("restarting trulinx com app")
-                                        # restartCommand = subprocess.run(["powershell", "-Command", restartTrulinxComApp], capture_output=True)
-                                        # print (restartCommand.stdout.splitlines())
+                                        print("restarting trulinx com app")
+                                        restartCommand = subprocess.run(["powershell", "-Command", restartTrulinxComApp], capture_output=True)
+                                        print (restartCommand.stdout.splitlines())
                                         print("Test Failed - Sending email")
                                         # Send Email
-                                        sendEmail(message = f"Failed Auto Print \n\n\n{docTime} - {keyList[i]} \n\nTotal items\n {list(workingFileDict.keys())}", subject = "Failed Auto Print", emailTo = "cstogsdill@midwesthose.com", emailFrom = "chris1stogsdill@gmail.com")
+                                        sendEmail(message = f"Failed Auto Print \n\nTrulinx Service Restarted\n\n{docTime} - {keyList[i]} \n\nTotal items\n {list(workingFileDict.keys())}", subject = "Failed Auto Print", emailTo = "cstogsdill@midwesthose.com", emailFrom = "chris1stogsdill@gmail.com")
                                         workingFileDict.clear()
 
                                 lineCounter += 1
