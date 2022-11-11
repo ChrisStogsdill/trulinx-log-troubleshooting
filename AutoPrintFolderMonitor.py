@@ -147,7 +147,7 @@ class Handler(FileSystemEventHandler):
                                         print (restartCommand.stdout.splitlines())
                                         print("Test Failed - Sending email")
                                         # Send Email
-                                        sendEmail(message = f"Failed Auto Print \n\nTrulinx Service Restarted\n\n{docTime} - \n{keyList[i]} \n\nTotal items\n {'\n'.join(keyList)}", subject = "Failed Auto Print", emailTo = "cstogsdill@midwesthose.com", emailFrom = "chris1stogsdill@gmail.com")
+                                        sendEmail(message = f"Failed Auto Print \n\nTrulinx Service Restarted\n\n{docTime} - \n{keyList[i]} \n\nTotal items\n {', '.join(keyList)}", subject = "Failed Auto Print", emailTo = "cstogsdill@midwesthose.com", emailFrom = "chris1stogsdill@gmail.com")
                                         workingFileDict.clear()
 
                                 lineCounter += 1
