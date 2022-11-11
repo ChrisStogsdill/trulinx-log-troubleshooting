@@ -8,7 +8,7 @@ for file in os.listdir(tempLogsDir):
     with open(os.path.join(tempLogsDir, file), 'r') as f:
         readLines = f.readlines()
 
-        userName = 'RMYERS'
+        userName = 'OKCCOUNTER'
         if userName in readLines[0]:
             startTime = readLines[0][0:19]
             startTimeObject = datetime.strptime(startTime, "%m/%d/%Y %H:%M:%S")
