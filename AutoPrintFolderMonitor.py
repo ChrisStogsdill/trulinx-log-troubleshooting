@@ -3,7 +3,7 @@ import subprocess
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 from datetime import datetime
-from sendEmail import sendEmail
+from sendEmailFromSupport import sendEmail
 
 workingFileDict = {}
 
@@ -111,8 +111,7 @@ class Handler(FileSystemEventHandler):
                                 
                                 print('Potential issue detected - WorkingFileDict updated')
                                 print(readLines[0].strip())
-                                
-                                # sendEmail(message = f"Failed Auto Print \n{time1Object} - {event.src_path}", subject = "Failed Auto Print", emailTo = "cstogsdill@midwesthose.com", emailFrom = "chris1stogsdill@gmail.com")
+                                                                
                                 continue    
                         # Increment counter for the next loop.
                         counter += 1
@@ -147,7 +146,7 @@ class Handler(FileSystemEventHandler):
                                         print (restartCommand.stdout.splitlines())
                                         print("Test Failed - Sending email")
                                         # Send Email
-                                        sendEmail(message = f"Failed Auto Print \n\nTrulinx Service Restarted\n\n{docTime} - \n{keyList[i]} \n\nTotal items\n {', '.join(keyList)}", subject = "Failed Auto Print", emailTo = "cstogsdill@midwesthose.com", emailFrom = "chris1stogsdill@gmail.com")
+                                        sendEmail(message = f"Failed Auto Print \n\nTrulinx Service Restarted\n\n{docTime} - \n{keyList[i]} \n\nTotal items\n {', '.join(keyList)}", subject = "Failed Auto Print", emailTo = "cstogsdill@midwesthose.com", emailFrom = "mwhsupport@midwesthose.com")
                                         workingFileDict.clear()
 
                                 lineCounter += 1
