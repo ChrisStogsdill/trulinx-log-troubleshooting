@@ -8,7 +8,7 @@ from sendEmailFromSupport import sendEmail
 workingFileDict = {}
 
 # powershell command to run on Trulinx server
-# This doesnt need to be here anymore. mainly keeping it here to make sure the script is still running
+# This doesn't need to be here anymore. mainly keeping it here to make sure the script is still running
 # and to be an example of running a command on a server
 listComApps = r"""
 Invoke-Command -ComputerName corp-app-11 -ScriptBlock {
@@ -79,7 +79,7 @@ class Handler(FileSystemEventHandler):
         elif event.event_type == 'created':
             # Event is created, you can process it now
             currentTime = time.strftime("%Y-%m-%d %H:%M:%S")
-            # sleep for 3 minutes to try and cut down on false positives.
+            # sleep for 10 seconds to try and cut down on false positives.
             time.sleep(10)
 
             print(f"{currentTime} - Created File event - {event.src_path}")
