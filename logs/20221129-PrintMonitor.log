@@ -1,0 +1,586 @@
+asdf
+2022-11-29 13:13:07.916344 - starting script
+list of services
+COM+ Utilities
+TrulinX
+COM+ QC Dead Letter Queue Listener
+COM+ Explorer
+COM+ Utilities (32 bit)
+VMware Snapshot Provider
+System Application
+
+2022-11-29 13:13:13 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpE96.log
+2022-11-29 13:13:51 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpA588.log
+2022-11-29 13:14:01 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB76B.log
+2022-11-29 13:14:11 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpD266.log
+2022-11-29 13:14:37 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp5860.log
+2022-11-29 13:14:48 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp826E.log
+2022-11-29 13:15:01 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB789.log
+2022-11-29 13:15:11 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpD8CE.log
+2022-11-29 13:15:23 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpA3F.log
+2022-11-29 13:15:33 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpA7F.log
+2022-11-29 13:15:43 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp5880.log
+2022-11-29 13:16:00 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp9AE9.log
+2022-11-29 13:16:17 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpE031.log
+2022-11-29 13:16:36 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp2866.log
+2022-11-29 13:16:46 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp326A.log
+2022-11-29 13:16:56 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp476A.log
+2022-11-29 13:17:06 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp4910.log
+2022-11-29 13:17:18 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpCD26.log
+2022-11-29 13:20:15 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp810C.log
+2022-11-29 13:21:04 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp4140.log
+2022-11-29 13:21:53 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpFF9F.log
+2022-11-29 13:22:14 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp4FF3.log
+2022-11-29 13:22:24 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp5004.log
+Potential issue detected - WorkingFileDict updated
+11/29/2022 13:22:14 Validating user login information for SLCCOUNTER.
+2022-11-29 13:22:34 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp7A31.log
+2022-11-29 13:22:44 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpAAA9.log
+2022-11-29 13:23:25 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp6772.log
+2022-11-29 13:23:35 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp7AEB.log
+2022-11-29 13:23:45 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpAD76.log
+2022-11-29 13:23:55 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpCE9B.log
+2022-11-29 13:24:45 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp9E60.log
+2022-11-29 13:25:51 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpA08E.log
+unsupported operand type(s) for +: 'datetime.timedelta' and 'str'
+2022-11-29 13:26:01 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpABBB.log
+unsupported operand type(s) for +: 'datetime.timedelta' and 'str'
+2022-11-29 13:28:38.279560 - starting script
+list of services
+COM+ Utilities
+TrulinX
+COM+ QC Dead Letter Queue Listener
+COM+ Explorer
+COM+ Utilities (32 bit)
+VMware Snapshot Provider
+System Application
+
+2022-11-29 13:29:08 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpA375.log
+2022-11-29 13:29:45 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp320A.log
+2022-11-29 13:29:57 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp61A7.log
+2022-11-29 13:32:13 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp740D.log
+2022-11-29 13:32:34 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpC942.log
+2022-11-29 13:32:59 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp2771.log
+2022-11-29 13:33:20 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp7989.log
+2022-11-29 13:33:30 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp9BE7.log
+2022-11-29 13:33:55 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp2EF.log
+2022-11-29 13:34:18 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp5CE7.log
+2022-11-29 13:34:28 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp6A46.log
+2022-11-29 13:34:55 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpED33.log
+2022-11-29 13:35:24 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp612B.log
+2022-11-29 13:35:35 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp8A7F.log
+2022-11-29 13:36:38 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp81A1.log
+2022-11-29 13:37:07 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpF04A.log
+2022-11-29 13:37:44 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp81FC.log
+2022-11-29 13:37:54 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpA92C.log
+2022-11-29 13:38:21 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp113E.log
+2022-11-29 13:38:48 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp7BC1.log
+2022-11-29 13:39:40 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp48B6.log
+2022-11-29 13:41:13 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB45D.log
+2022-11-29 13:41:37 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp11EF.log
+2022-11-29 13:42:29 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpDC64.log
+2022-11-29 13:42:39 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpF906.log
+2022-11-29 13:43:20 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpA227.log
+2022-11-29 13:43:34 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpD9F2.log
+2022-11-29 13:44:21 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp9023.log
+2022-11-29 13:44:31 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB0EB.log
+2022-11-29 13:44:43 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpE8B5.log
+2022-11-29 13:44:53 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpE8E5.log
+2022-11-29 13:45:25 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp8C3B.log
+2022-11-29 13:45:55 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpFF1A.log
+2022-11-29 13:46:05 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1D90.log
+2022-11-29 13:46:31 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp8B6E.log
+2022-11-29 13:46:47 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpCA4C.log
+2022-11-29 13:47:19 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp47BB.log
+2022-11-29 13:47:30 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp742B.log
+2022-11-29 13:50:04 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpCE58.log
+2022-11-29 13:51:05 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpBB59.log
+2022-11-29 13:51:44 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp54BC.log
+2022-11-29 13:52:37 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp20E6.log
+2022-11-29 13:52:47 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp2174.log
+2022-11-29 13:53:12 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpAC9E.log
+2022-11-29 13:54:02 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp6EB6.log
+2022-11-29 13:55:11 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp7B36.log
+2022-11-29 13:55:21 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp7C40.log
+2022-11-29 13:55:31 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp7EC2.log
+2022-11-29 13:55:41 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpBDEF.log
+2022-11-29 13:55:51 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp3F2.log
+2022-11-29 13:56:12 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp6B96.log
+2022-11-29 13:56:24 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp9A67.log
+2022-11-29 13:56:46 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpEF5E.log
+2022-11-29 13:57:54 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpF98C.log
+2022-11-29 13:58:04 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpF99D.log
+2022-11-29 13:58:46 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpC337.log
+2022-11-29 13:59:57 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpDB3F.log
+2022-11-29 14:00:11 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpEF3.log
+2022-11-29 14:00:21 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp277D.log
+2022-11-29 14:01:12 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpFD5C.log
+2022-11-29 14:01:39 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp684C.log
+2022-11-29 14:03:36 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp31B3.log
+2022-11-29 14:03:51 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp6B61.log
+2022-11-29 14:04:01 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp8B10.log
+2022-11-29 14:04:32 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB2E.log
+2022-11-29 14:05:02 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp7F56.log
+2022-11-29 14:05:12 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp7F45.log
+2022-11-29 14:05:30 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpEF95.log
+2022-11-29 14:05:49 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp37AC.log
+Potential issue detected - WorkingFileDict updated
+11/29/2022 14:05:49 Validating user login information for VERNAL.
+2022-11-29 14:07:03 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp5AFF.log
+2022-11-29 14:07:13 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp7128.log
+2022-11-29 14:07:37 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpDF83.log
+2022-11-29 14:07:56 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp2A39.log
+2022-11-29 14:08:14 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp6EA5.log
+2022-11-29 14:09:30 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp95D1.log
+0:03:50.093868
+testing - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp37AC.log
+File printed successfully - removing from WorkingFileDict
+2022-11-29 14:09:40 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp9BEC.log
+2022-11-29 14:10:05 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp205F.log
+2022-11-29 14:10:15 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp23EB.log
+2022-11-29 14:11:54 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpCAF5.log
+2022-11-29 14:12:04 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpD12F.log
+2022-11-29 14:12:43 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp8974.log
+2022-11-29 14:13:12 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpF8F8.log
+2022-11-29 14:13:22 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpA10.log
+2022-11-29 14:14:01 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB99B.log
+2022-11-29 14:14:16 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpF434.log
+2022-11-29 14:14:26 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1828.log
+2022-11-29 14:14:36 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp36FB.log
+2022-11-29 14:17:12 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpA3A7.log
+2022-11-29 14:17:22 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB720.log
+2022-11-29 14:17:43 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1B5A.log
+2022-11-29 14:18:25 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpC1BC.log
+2022-11-29 14:18:38 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpF262.log
+2022-11-29 14:18:48 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1C04.log
+2022-11-29 14:20:22 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp8A3B.log
+2022-11-29 14:22:08 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp286B.log
+2022-11-29 14:22:18 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp476D.log
+2022-11-29 14:23:15 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp2CCD.log
+2022-11-29 14:23:49 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB2B7.log
+2022-11-29 14:25:19 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp10E1.log
+2022-11-29 14:28:21 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpD87E.log
+2022-11-29 14:28:31 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpEB6B.log
+2022-11-29 14:28:58 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp6B3A.log
+2022-11-29 14:30:21 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpAEE7.log
+2022-11-29 14:31:14 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp7CD7.log
+2022-11-29 14:32:11 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp5AE3.log
+2022-11-29 14:32:23 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp8B89.log
+2022-11-29 14:32:33 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp904D.log
+2022-11-29 14:32:59 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1657.log
+2022-11-29 14:33:27 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp834A.log
+2022-11-29 14:33:51 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpE31F.log
+2022-11-29 14:34:05 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp17AD.log
+2022-11-29 14:34:16 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp4380.log
+2022-11-29 14:34:34 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp8BA6.log
+2022-11-29 14:34:45 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp8BA7.log
+2022-11-29 14:35:05 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp2CC.log
+2022-11-29 14:35:15 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp10D7.log
+2022-11-29 14:35:25 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1107.log
+2022-11-29 14:35:35 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1F12.log
+2022-11-29 14:35:45 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp374E.log
+2022-11-29 14:35:55 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpA933.log
+2022-11-29 14:36:06 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpF06E.log
+2022-11-29 14:36:16 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp18B9.log
+2022-11-29 14:36:26 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp18B8.log
+2022-11-29 14:36:44 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp858D.log
+2022-11-29 14:37:22 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp19DF.log
+2022-11-29 14:37:56 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp9F9A.log
+2022-11-29 14:38:24 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB46.log
+2022-11-29 14:38:34 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp31E9.log
+2022-11-29 14:38:51 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp7618.log
+2022-11-29 14:40:17 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpC5CA.log
+2022-11-29 14:40:48 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp3E18.log
+2022-11-29 14:41:35 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpF786.log
+2022-11-29 14:42:58 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp392E.log
+2022-11-29 14:44:48 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpE8B4.log
+2022-11-29 14:44:58 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpFD28.log
+2022-11-29 14:45:08 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpC7A.log
+2022-11-29 14:46:17 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp4327.log
+2022-11-29 14:46:27 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp5BD0.log
+2022-11-29 14:46:37 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp7F38.log
+2022-11-29 14:46:47 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpA426.log
+2022-11-29 14:48:28 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp4592.log
+2022-11-29 14:48:40 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp7195.log
+2022-11-29 14:49:03 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpCC58.log
+2022-11-29 14:49:13 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpE6F6.log
+2022-11-29 14:49:42 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp63F7.log
+2022-11-29 14:50:09 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpCEC7.log
+2022-11-29 14:50:21 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpFB37.log
+2022-11-29 14:50:35 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp34A8.log
+2022-11-29 14:50:54 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp7E35.log
+2022-11-29 14:51:04 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp9855.log
+2022-11-29 14:51:18 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpDBF7.log
+2022-11-29 14:51:28 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpE06C.log
+2022-11-29 14:51:38 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1374.log
+2022-11-29 14:52:12 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB080.log
+2022-11-29 14:52:41 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp20A0.log
+2022-11-29 14:52:51 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp3CB5.log
+2022-11-29 14:53:01 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp603B.log
+2022-11-29 14:53:11 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp7645.log
+2022-11-29 14:53:47 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp2330.log
+2022-11-29 14:54:03 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp5FFB.log
+2022-11-29 14:54:19 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp9DC1.log
+2022-11-29 14:55:39 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpD76A.log
+2022-11-29 14:56:24 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp87DF.log
+2022-11-29 14:56:37 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB8F3.log
+2022-11-29 14:57:40 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpAF6A.log
+2022-11-29 14:57:50 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpD6B9.log
+2022-11-29 14:58:00 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpE7C1.log
+2022-11-29 14:58:10 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp751.log
+2022-11-29 14:58:20 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp771.log
+2022-11-29 14:58:30 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp3E80.log
+2022-11-29 14:58:40 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp568D.log
+2022-11-29 15:00:21 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp238D.log
+2022-11-29 15:00:31 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp2832.log
+2022-11-29 15:00:57 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB06E.log
+2022-11-29 15:01:08 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpDB48.log
+Potential issue detected - WorkingFileDict updated
+11/29/2022 15:01:07 Validating user login information for LONGVIEWSALES.
+2022-11-29 15:01:18 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpF1BF.log
+2022-11-29 15:01:58 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp9E1D.log
+2022-11-29 15:02:27 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpFE3.log
+2022-11-29 15:02:52 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp72A5.log
+2022-11-29 15:03:09 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB51F.log
+2022-11-29 15:03:19 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB51E.log
+2022-11-29 15:03:29 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpEA59.log
+2022-11-29 15:03:54 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp641D.log
+2022-11-29 15:04:41 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1C14.log
+0:03:42.458737
+testing - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpDB48.log
+File printed successfully - removing from WorkingFileDict
+2022-11-29 15:04:51 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp43F0.log
+2022-11-29 15:05:39 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpFFA0.log
+2022-11-29 15:06:34 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpD773.log
+2022-11-29 15:06:45 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp25D.log
+2022-11-29 15:07:07 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp5688.log
+2022-11-29 15:07:49 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpFBE2.log
+2022-11-29 15:08:26 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp8B90.log
+2022-11-29 15:08:45 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpD4BF.log
+Potential issue detected - WorkingFileDict updated
+11/29/2022 15:08:44 Validating user login information for ODESSACOUNTER.
+2022-11-29 15:09:13 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp41A3.log
+2022-11-29 15:09:59 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpF479.log
+2022-11-29 15:10:09 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpF97C.log
+2022-11-29 15:11:06 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpFBAA.log
+2022-11-29 15:11:49 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpA401.log
+0:03:13.511490
+testing - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpD4BF.log
+File printed successfully - removing from WorkingFileDict
+2022-11-29 15:14:48 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp5EEC.log
+2022-11-29 15:16:15 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB371.log
+2022-11-29 15:16:25 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpC787.log
+2022-11-29 15:16:50 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp3E5D.log
+2022-11-29 15:17:09 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp89DF.log
+2022-11-29 15:17:20 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpA854.log
+2022-11-29 15:17:30 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpAA2A.log
+2022-11-29 15:18:45 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpFDE4.log
+2022-11-29 15:18:55 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1A47.log
+Potential issue detected - WorkingFileDict updated
+11/29/2022 15:18:52 Validating user login information for ODESSACOUNTER.
+2022-11-29 15:19:05 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp45BD.log
+2022-11-29 15:19:26 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp9E5D.log
+Potential issue detected - WorkingFileDict updated
+11/29/2022 15:19:26 Validating user login information for OKCCOUNTER.
+2022-11-29 15:19:36 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpA5E0.log
+Potential issue detected - WorkingFileDict updated
+11/29/2022 15:19:28 Validating user login information for VERNAL.
+2022-11-29 15:19:46 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpAFA5.log
+Potential issue detected - WorkingFileDict updated
+11/29/2022 15:19:30 Validating user login information for OKCCOUNTER.
+2022-11-29 15:20:01 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp2851.log
+2022-11-29 15:20:28 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp90FE.log
+2022-11-29 15:20:38 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp95E1.log
+2022-11-29 15:20:48 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp9F49.log
+2022-11-29 15:20:58 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp5E3.log
+2022-11-29 15:21:17 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp526E.log
+2022-11-29 15:21:44 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpBA51.log
+0:03:01.516475
+testing - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1A47.log
+File printed successfully - removing from WorkingFileDict
+2022-11-29 15:22:08 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1821.log
+2022-11-29 15:22:22 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp4E55.log
+Potential issue detected - WorkingFileDict updated
+11/29/2022 15:22:22 Validating user login information for WILLISTONCOUNTER.
+0:03:05.399018
+testing - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp9E5D.log
+File printed successfully - removing from WorkingFileDict
+0:03:02.427729
+testing - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpA5E0.log
+File printed successfully - removing from WorkingFileDict
+0:03:01.467726
+testing - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpAFA5.log
+File printed successfully - removing from WorkingFileDict
+2022-11-29 15:22:32 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp629A.log
+2022-11-29 15:22:49 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB918.log
+2022-11-29 15:24:43 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp7678.log
+2022-11-29 15:24:55 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpA5D6.log
+2022-11-29 15:25:27 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1F7C.log
+0:03:14.075790
+testing - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp4E55.log
+File printed successfully - removing from WorkingFileDict
+2022-11-29 15:25:37 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1FAC.log
+2022-11-29 15:25:49 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp788B.log
+2022-11-29 15:26:38 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp3506.log
+2022-11-29 15:26:48 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp3D06.log
+2022-11-29 15:31:12 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp63E4.log
+2022-11-29 15:31:22 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp6BE4.log
+2022-11-29 15:31:32 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB38D.log
+2022-11-29 15:32:44 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpCD3B.log
+2022-11-29 15:32:54 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpCDD9.log
+2022-11-29 15:33:44 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB7BD.log
+2022-11-29 15:34:05 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp8DB.log
+2022-11-29 15:34:32 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp71B8.log
+2022-11-29 15:34:47 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpABA5.log
+2022-11-29 15:35:21 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp3122.log
+2022-11-29 15:35:53 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB094.log
+Potential issue detected - WorkingFileDict updated
+11/29/2022 15:35:53 Validating user login information for HOBBSSALES.
+2022-11-29 15:36:19 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1635.log
+2022-11-29 15:36:29 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1D0C.log
+2022-11-29 15:36:39 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp24FC.log
+2022-11-29 15:36:50 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp3B63.log
+2022-11-29 15:37:00 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp4835.log
+Potential issue detected - WorkingFileDict updated
+11/29/2022 15:36:32 Validating user login information for DALLASCOUNTER.
+2022-11-29 15:37:10 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp5006.log
+2022-11-29 15:37:20 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpEE7A.log
+2022-11-29 15:37:30 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpEF46.log
+2022-11-29 15:37:40 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpD4F.log
+2022-11-29 15:37:50 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1A7F.log
+2022-11-29 15:38:00 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp3461.log
+2022-11-29 15:38:10 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp351D.log
+2022-11-29 15:38:54 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp72DE.log
+0:03:09.759657
+testing - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB094.log
+File printed successfully - removing from WorkingFileDict
+2022-11-29 15:39:16 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpC890.log
+2022-11-29 15:40:14 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpA97B.log
+0:03:51.271412
+testing - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp4835.log
+File printed successfully - removing from WorkingFileDict
+2022-11-29 15:41:39 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpF7F5.log
+2022-11-29 15:42:20 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp9705.log
+2022-11-29 15:42:30 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpAC53.log
+2022-11-29 15:42:40 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpD27A.log
+2022-11-29 15:42:50 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp11C.log
+2022-11-29 15:43:39 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpCB43.log
+2022-11-29 15:43:51 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpFB9B.log
+2022-11-29 15:44:25 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp7F34.log
+2022-11-29 15:44:59 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp29E.log
+2022-11-29 15:45:09 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpE57.log
+2022-11-29 15:45:25 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp68AD.log
+2022-11-29 15:46:42 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp95F3.log
+2022-11-29 15:46:54 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpC37C.log
+2022-11-29 15:47:15 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp170B.log
+2022-11-29 15:47:29 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp4C65.log
+2022-11-29 15:47:48 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp98EF.log
+2022-11-29 15:47:58 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp9A77.log
+2022-11-29 15:48:38 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp5ABB.log
+2022-11-29 15:48:48 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp6079.log
+2022-11-29 15:49:00 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB2D0.log
+2022-11-29 15:49:24 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpFC6.log
+2022-11-29 15:50:04 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpAACE.log
+2022-11-29 15:50:15 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpD4FC.log
+2022-11-29 15:50:25 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpF7B8.log
+2022-11-29 15:50:56 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp77C6.log
+2022-11-29 15:52:56 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp4A74.log
+2022-11-29 15:53:06 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp5E1C.log
+2022-11-29 15:53:26 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpC003.log
+2022-11-29 15:54:33 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpC436.log
+2022-11-29 15:54:51 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpBA0.log
+2022-11-29 15:56:29 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp8B8A.log
+2022-11-29 15:57:05 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp16D3.log
+2022-11-29 15:58:55 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpC5FB.log
+2022-11-29 16:00:05 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpD809.log
+2022-11-29 16:01:21 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpFE59.log
+2022-11-29 16:01:31 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1FDD.log
+2022-11-29 16:01:41 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp4B53.log
+2022-11-29 16:01:51 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp76C9.log
+2022-11-29 16:03:07 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp9ECF.log
+2022-11-29 16:03:32 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpFF30.log
+2022-11-29 16:03:42 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1F0.log
+2022-11-29 16:04:45 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1CC7.log
+2022-11-29 16:05:19 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpA0DD.log
+2022-11-29 16:05:58 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp3926.log
+2022-11-29 16:07:29 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp9BC4.log
+2022-11-29 16:07:52 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpF724.log
+2022-11-29 16:08:25 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp7751.log
+2022-11-29 16:09:05 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1354.log
+2022-11-29 16:09:15 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp2007.log
+2022-11-29 16:09:25 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp2855.log
+2022-11-29 16:09:35 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp4C1A.log
+2022-11-29 16:09:45 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp6698.log
+2022-11-29 16:09:55 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpBA38.log
+2022-11-29 16:10:54 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpBE99.log
+2022-11-29 16:13:06 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpC2D6.log
+2022-11-29 16:13:32 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp2683.log
+2022-11-29 16:13:59 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp9182.log
+2022-11-29 16:14:27 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpFE57.log
+2022-11-29 16:16:19 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB290.log
+2022-11-29 16:16:45 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1AA1.log
+2022-11-29 16:17:30 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpC828.log
+2022-11-29 16:18:14 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp75FD.log
+2022-11-29 16:20:39 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpAA53.log
+2022-11-29 16:22:30 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp5DA1.log
+2022-11-29 16:23:01 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpD553.log
+2022-11-29 16:23:18 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1981.log
+2022-11-29 16:23:40 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp6DAD.log
+2022-11-29 16:24:05 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpD06F.log
+2022-11-29 16:25:29 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1823.log
+2022-11-29 16:26:14 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpC5B9.log
+2022-11-29 16:27:06 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp931C.log
+2022-11-29 16:27:52 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp4854.log
+2022-11-29 16:28:17 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpA682.log
+2022-11-29 16:28:27 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB6DF.log
+2022-11-29 16:28:37 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpCDB4.log
+2022-11-29 16:28:57 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp4391.log
+2022-11-29 16:29:26 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB43D.log
+2022-11-29 16:30:07 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp5716.log
+2022-11-29 16:30:24 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp9681.log
+2022-11-29 16:32:23 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp68F0.log
+Potential issue detected - WorkingFileDict updated
+11/29/2022 16:32:23 Validating user login information for BAKERFCOUNTER.
+2022-11-29 16:32:36 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp9ABF.log
+Potential issue detected - WorkingFileDict updated
+11/29/2022 16:32:36 Validating user login information for HOUSTONCOUNTER.
+2022-11-29 16:32:46 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpBBB6.log
+Potential issue detected - WorkingFileDict updated
+11/29/2022 16:32:44 Validating user login information for WILLISTONCOUNTER.
+2022-11-29 16:33:42 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp9F41.log
+2022-11-29 16:34:06 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpFA04.log
+2022-11-29 16:34:55 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB9EA.log
+2022-11-29 16:35:58 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB051.log
+0:03:44.400693
+testing - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp68F0.log
+File printed successfully - removing from WorkingFileDict
+0:03:23.420109
+testing - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp9ABF.log
+File printed successfully - removing from WorkingFileDict
+0:03:23.460795
+testing - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpBBB6.log
+File printed successfully - removing from WorkingFileDict
+2022-11-29 16:37:02 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpAA91.log
+2022-11-29 16:37:14 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpDA6C.log
+2022-11-29 16:37:58 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp8524.log
+2022-11-29 16:38:15 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpC6B2.log
+2022-11-29 16:38:29 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp13.log
+2022-11-29 16:38:40 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp284D.log
+2022-11-29 16:39:52 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp43FF.log
+Potential issue detected - WorkingFileDict updated
+11/29/2022 16:39:52 Validating user login information for HOBBSSALES.
+2022-11-29 16:40:23 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpBC7B.log
+2022-11-29 16:41:33 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpCF35.log
+2022-11-29 16:43:04 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp2FC0.log
+0:03:21.268586
+testing - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp43FF.log
+File printed successfully - removing from WorkingFileDict
+2022-11-29 16:43:47 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpD845.log
+2022-11-29 16:44:51 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpD14C.log
+2022-11-29 16:45:10 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1E64.log
+2022-11-29 16:45:36 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp83C6.log
+2022-11-29 16:46:02 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpE6C6.log
+2022-11-29 16:46:18 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp27B8.log
+2022-11-29 16:46:44 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp8DA7.log
+2022-11-29 16:48:11 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpE048.log
+2022-11-29 16:48:32 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp31D4.log
+2022-11-29 16:51:15 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpAF77.log
+2022-11-29 16:52:53 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp2E29.log
+2022-11-29 16:53:52 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp158C.log
+2022-11-29 16:56:43 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB06C.log
+2022-11-29 16:57:37 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp82F0.log
+2022-11-29 16:58:34 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp608F.log
+2022-11-29 16:59:20 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1327.log
+2022-11-29 16:59:34 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp4D52.log
+2022-11-29 16:59:53 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp94DC.log
+2022-11-29 17:00:27 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp194F.log
+2022-11-29 17:01:43 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp4240.log
+2022-11-29 17:02:33 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp756.log
+2022-11-29 17:03:13 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpA3D5.log
+2022-11-29 17:04:47 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp11BE.log
+2022-11-29 17:05:13 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp776E.log
+2022-11-29 17:10:26 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp3D5C.log
+2022-11-29 17:11:55 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp99A1.log
+2022-11-29 17:13:41 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp38BC.log
+2022-11-29 17:14:11 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpAF16.log
+2022-11-29 17:16:02 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp5E4D.log
+2022-11-29 17:22:07 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpF22A.log
+2022-11-29 17:23:54 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp920F.log
+2022-11-29 17:25:50 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp5656.log
+2022-11-29 17:32:21 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp5148.log
+2022-11-29 17:33:52 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB1F3.log
+2022-11-29 17:34:28 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp41C0.log
+2022-11-29 17:40:42 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpF421.log
+2022-11-29 17:42:05 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp38B8.log
+2022-11-29 17:43:58 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpF29E.log
+2022-11-29 17:44:10 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp2269.log
+2022-11-29 17:46:54 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpA1B2.log
+2022-11-29 17:47:50 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp7E19.log
+2022-11-29 17:50:24 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpD7D9.log
+2022-11-29 18:00:29 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1053.log
+2022-11-29 18:01:05 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp9E4C.log
+2022-11-29 18:02:47 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp2B27.log
+2022-11-29 18:04:14 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp7FAC.log
+2022-11-29 18:04:24 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpA5A3.log
+2022-11-29 18:05:04 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp4484.log
+2022-11-29 18:05:14 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp4C17.log
+2022-11-29 18:13:44 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp3240.log
+2022-11-29 18:21:00 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpD913.log
+time limit reached. Stopping observer
+Stopped
+2022-11-29 18:28:42.653348 - starting script
+list of services
+COM+ Utilities
+TrulinX
+COM+ QC Dead Letter Queue Listener
+COM+ Explorer
+COM+ Utilities (32 bit)
+VMware Snapshot Provider
+System Application
+
+2022-11-29 18:29:51 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpF4F1.log
+2022-11-29 18:45:33 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp551F.log
+2022-11-29 19:11:07 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpBAEF.log
+2022-11-29 19:14:02 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp6724.log
+2022-11-29 19:19:08 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1285.log
+2022-11-29 19:32:15 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1616.log
+2022-11-29 19:34:54 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp84D5.log
+2022-11-29 19:36:03 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp91E1.log
+2022-11-29 19:36:37 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp14FC.log
+2022-11-29 19:38:15 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp9350.log
+2022-11-29 19:42:26 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp66EE.log
+2022-11-29 19:42:47 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB9D2.log
+2022-11-29 19:56:54 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpA6D8.log
+2022-11-29 19:57:14 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpF586.log
+2022-11-29 20:18:51 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpBFA1.log
+2022-11-29 20:21:30 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp2B81.log
+2022-11-29 20:22:58 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp849A.log
+2022-11-29 20:23:20 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpDA4D.log
+2022-11-29 20:32:17 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpDDA.log
+2022-11-29 21:19:13 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp445.log
+2022-11-29 21:22:00 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp914A.log
+2022-11-29 21:22:10 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpAE68.log
+2022-11-29 21:23:10 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpA04B.log
+2022-11-29 21:23:26 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpDDC2.log
+2022-11-29 21:23:58 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp5DF0.log
+2022-11-29 21:24:21 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpB6DE.log
+2022-11-29 21:24:37 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpF3F8.log
+2022-11-29 21:25:16 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp8E35.log
+2022-11-29 21:25:33 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpD060.log
+2022-11-29 21:25:55 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp2641.log
+2022-11-29 21:26:17 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp7ABB.log
+2022-11-29 21:26:37 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmpC8BD.log
+2022-11-29 21:26:57 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp1661.log
+2022-11-29 21:27:19 - Created File event - \\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs\AutoPrinttmp6BD5.log
+time limit reached. Stopping observer
+Stopped
+2022-11-29 23:28:46.381379 - starting script
+list of services
+COM+ Utilities
+TrulinX
+COM+ QC Dead Letter Queue Listener
+COM+ Explorer
+COM+ Utilities (32 bit)
+VMware Snapshot Provider
+System Application
+

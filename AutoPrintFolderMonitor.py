@@ -2,10 +2,25 @@ import time
 import subprocess
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
-from datetime import datetime
+import datetime
 from sendEmailFromSupport import sendEmail
 
 workingFileDict = {}
+now = datetime.datetime.now()
+
+
+def log(input):
+    # get today as datetime
+    today = datetime.date.today().strftime("%Y%m%d")
+    # convert today as string
+    # today = today.strftime("%Y%m%d")
+
+    logFile = f"./logs/{today}-PrintMonitor.log"
+    with open(logFile, "a") as file:
+        file.write(str(input) + "\n")
+
+log(f"{now} - starting script")
+
 
 # powershell command to run on Trulinx server
 # This doesn't need to be here anymore. mainly keeping it here to make sure the script is still running
@@ -33,19 +48,21 @@ Invoke-Command -ComputerName corp-app-11 -ScriptBlock {
 
 # this both serves to test the subprocess but also makes sure powershell is prepared for it.
 testOutput = subprocess.run(["powershell", "-Command", listComApps], capture_output=True)
-print (testOutput.stdout.splitlines())
+log("list of services")
+log(testOutput.stdout.decode("utf-8"))
 
 # Setting up the folder watch class
 class OnMyWatch:
     # Set the directory on watch
     watchDirectory = r"\\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs"
+    # watchDirectory = r"C:\Users\cstogsdill\Downloads\temp logs"
   
     # initialize the class with the observer method
     def __init__(self):
         self.observer = Observer()
   
     def run(self):
-        startTime = datetime.now()
+        startTime = datetime.datetime.now()
         event_handler = Handler()
         self.observer.schedule(event_handler, self.watchDirectory, recursive = False)
         self.observer.start()
@@ -53,18 +70,18 @@ class OnMyWatch:
         try:
             while True:
                 time.sleep(5)
-                timeRunning = datetime.now() - startTime
-                # check how long this has been running. Stop after Time in seconds
+                timeRunning = datetime.datetime.now() - startTime
+                # check how long this has been running. Stop after Time in seconds. Should be 18000
                 if timeRunning.seconds > 18000:
-                    print ("time limit reached. Stopping observer")
+                    log("time limit reached. Stopping observer")
                     self.observer.stop()
-                    print("Stopped")
+                    log("Stopped")
                     return "Stopped"
         except Exception as e:
             self.observer.stop()
 
-            print("Observer Stopped")
-            print(e)
+            log("Observer Stopped")
+            log(str(e))
   
         self.observer.join()
   
@@ -82,7 +99,7 @@ class Handler(FileSystemEventHandler):
             # sleep for 10 seconds to try and cut down on false positives.
             time.sleep(10)
 
-            print(f"{currentTime} - Created File event - {event.src_path}")
+            log(f"{currentTime} - Created File event - {event.src_path}")
 
             # sometimes the file just doesn't exist anymore. wrapping in a try statement
             # in order to not fail out the whole program when that happens
@@ -90,13 +107,27 @@ class Handler(FileSystemEventHandler):
                 # Open the file
                 with open(event.src_path, 'r') as f:
                     readLines = f.readlines()
+
+                    # check for bad printer setup
+                    if 'No match found in system-defined printers.' in readLines[3]:
+                        log("bad printer setup detected")
+                        log(readLines[0].strip('\n\r'))
+                        log(readLines[2].strip('\n\r'))
+                        log(readLines[3].strip('\n\r'))
+
+                        # send email about bad printer
+                        sendEmail(message = f"Bad Printer Detected \n\n{readLines[0]}{readLines[2]}{readLines[3]}", subject = "Bad Printer Setup", emailTo = "cstogsdill@midwesthose.com", emailFrom = "mwhsupport@midwesthose.com")
+
+                        log("email sent")
+
+
                     # Set counter up to be able to read through each line
                     counter = 0
                     for line in readLines:
                         # Find Copying in the line
                         if "Copying" in line:
                             time1 = readLines[counter][0:19]
-                            time1Object = datetime.strptime(time1, "%m/%d/%Y %H:%M:%S")
+                            time1Object = datetime.datetime.strptime(time1, "%m/%d/%Y %H:%M:%S")
 
                             # Make sure the line after "copying" exists
                             try:
@@ -109,57 +140,56 @@ class Handler(FileSystemEventHandler):
                                 workingFileDict.update({event.src_path: time1Object})
 
                                 
-                                print('Potential issue detected - WorkingFileDict updated')
-                                print(readLines[0].strip())
+                                log('Potential issue detected - WorkingFileDict updated')
+                                log(readLines[0].strip())
                                                                 
                                 continue    
                         # Increment counter for the next loop.
                         counter += 1
 
-                    # Close the file 
-                    f.close()
+
 
                 # check the status of each item in workingFileDict
                 keyList = list(workingFileDict.keys())
                 for i in range(len(keyList)):
-                    currentTime = datetime.now()
+                    currentTime = datetime.datetime.now()
                     docTime = workingFileDict[keyList[i]]
                     timeDifference = currentTime - docTime
                     if (timeDifference.seconds > 180) :
-                        print(currentTime - docTime)
+                        log(currentTime - docTime)
                         with open(keyList[i], "r") as file:
                             lines = file.readlines()
                             lineCounter = 0
                             for line in lines:
                                 if "Copying" in line :
                                     try:
-                                        print(f"testing - {keyList[i]}")
+                                        log(f"testing - {keyList[i]}")
                                         testLine = lines[lineCounter+1]
                                         # if testLine does not throw an error, then clear out the entry
                                         workingFileDict.pop(keyList[i])
-                                        print("File printed successfully - removing from WorkingFileDict")
+                                        log("File printed successfully - removing from WorkingFileDict")
                                         # if TestLine fails, send the email
                                     except: 
                                         # restart trulinx com service
-                                        print("restarting trulinx com app")
+                                        log("restarting trulinx com app")
                                         restartCommand = subprocess.run(["powershell", "-Command", restartTrulinxComApp], capture_output=True)
-                                        print (restartCommand.stdout.splitlines())
-                                        print("Test Failed - Sending email")
+                                        log(restartCommand.stdout.splitlines())
+                                        log("Test Failed - Sending email")
                                         # Send Email
                                         sendEmail(message = f"Failed Auto Print \n\nTrulinx Service Restarted\n\n{docTime} - \n{keyList[i]} \n\nTotal items\n {', '.join(keyList)}", subject = "Failed Auto Print", emailTo = "cstogsdill@midwesthose.com", emailFrom = "mwhsupport@midwesthose.com")
                                         workingFileDict.clear()
 
                                 lineCounter += 1
-                            file.close()                 
+             
                         
                             
                     
             except Exception as e: 
-                print(e)
+                log(str(e))
             
         # elif event.event_type == 'modified':
             # Event is modified, you can process it now
-            # print("Watchdog received modified event - % s." % event.src_path)
+            # log("Watchdog received modified event - % s." % event.src_path)
 
 watch = OnMyWatch()
 watch.run()

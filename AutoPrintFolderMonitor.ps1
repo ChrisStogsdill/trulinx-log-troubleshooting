@@ -3,4 +3,9 @@
 # It is now set to stop itself after about 5 hours, this script will keep calling it when it stops itself.
 while ($true) {
     python .\AutoPrintFolderMonitor.py
+
+    # cleanup the logs folder. 
+    # delete files older than 7 days in logs folder
+    Get-ChildItem –Path ".\logs" -Recurse | Where-Object {($_.LastWriteTime -gt (Get-Date).AddDays(-7))} | Remove-Item
+
 }
