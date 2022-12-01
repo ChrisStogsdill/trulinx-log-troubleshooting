@@ -124,14 +124,15 @@ class Handler(FileSystemEventHandler):
                     # Set counter up to be able to read through each line
                     counter = 0
                     for line in readLines:
-                        # Find Copying in the line
-                        if "Copying" in line:
+                        # Find "Getting data for the report" in the line
+                        if "Getting data for the report" in line:
                             time1 = readLines[counter][0:19]
                             time1Object = datetime.datetime.strptime(time1, "%m/%d/%Y %H:%M:%S")
 
-                            # Make sure the line after "copying" exists
+                            # Make sure 2 lines after "Getting data for the report" exists
+                            # this catches both types of print jobs
                             try:
-                                time2 = readLines[counter+1][0:19]
+                                time2 = readLines[counter+2][0:19]
                             
                             # if the line after does not exist, then an email needs to be sent
                             except: 

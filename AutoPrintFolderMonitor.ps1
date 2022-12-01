@@ -6,6 +6,6 @@ while ($true) {
 
     # cleanup the logs folder. 
     # delete files older than 7 days in logs folder
-    Get-ChildItem –Path ".\logs" -Recurse | Where-Object {($_.LastWriteTime -gt (Get-Date).AddDays(-7))} | Remove-Item
+    Get-ChildItem –Path ".\logs" -Recurse | Where-Object {($_.LastWriteTime -lt (Get-Date).AddDays(-7))} | Remove-Item
 
 }
