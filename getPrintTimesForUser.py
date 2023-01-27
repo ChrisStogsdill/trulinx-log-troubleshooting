@@ -1,19 +1,20 @@
 import os
 from datetime import datetime
 
-tempLogsDir = r"C:\Users\cstogsdill\Downloads\temp logs"
+tempLogsDir = r"\\corp-app-11\c$\Users\trbadm\AppData\Local\TrulinX\ReportRunnerLogs"
 counter = 0
 longPrintCounter = 0
 for file in os.listdir(tempLogsDir):
     with open(os.path.join(tempLogsDir, file), 'r') as f:
         readLines = f.readlines()
 
-        userName = 'OKCCOUNTER'
+        userName = 'VERNAL'
         if userName in readLines[0]:
-            startTime = readLines[0][0:19]
-            startTimeObject = datetime.strptime(startTime, "%m/%d/%Y %H:%M:%S")
-            endTime = readLines[-1][0:19]
-            endTimeObject = datetime.strptime(endTime, "%m/%d/%Y %H:%M:%S")
+            print(f"Testing doc {file}")
+            docStartTime = readLines[0][0:19]
+            startTimeObject = datetime.strptime(docStartTime, "%m/%d/%Y %H:%M:%S")
+            docEndTime = readLines[-1][0:19]
+            endTimeObject = datetime.strptime(docEndTime, "%m/%d/%Y %H:%M:%S")
             totalTime = endTimeObject - startTimeObject
             print(readLines[0].strip())
             if 'Counter Order' in readLines[25]:

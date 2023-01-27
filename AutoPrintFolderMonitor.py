@@ -116,7 +116,7 @@ class Handler(FileSystemEventHandler):
                         log(readLines[3].strip('\n\r'))
 
                         # send email about bad printer
-                        sendEmail(message = f"Bad Printer Detected \n\n{readLines[0]}{readLines[2]}{readLines[3]}", subject = "Bad Printer Setup", emailTo = "cstogsdill@midwesthose.com", emailFrom = "mwhsupport@midwesthose.com")
+                        sendEmail(message = f"Bad Printer Detected \n\n{event.src_path}\n\n{readLines[0]}{readLines[2]}{readLines[3]}", subject = "Bad Printer Setup", emailTo = "jferguson@midwesthose.com", emailFrom = "mwhsupport@midwesthose.com")
 
                         log("email sent")
 
@@ -162,19 +162,32 @@ class Handler(FileSystemEventHandler):
                             lines = file.readlines()
                             lineCounter = 0
                             for line in lines:
-                                if "Copying" in line :
+                                if "Getting data for the report" in line :
                                     try:
                                         log(f"testing - {keyList[i]}")
-                                        testLine = lines[lineCounter+1]
+                                        # test if 2 lines after "getting data for the report" exist
+                                        # it will trigger an error if it does not
+                                        testLine = lines[lineCounter+2]
+
+                                        # get total print time for document
+                                        docStartTime = lines[0][0:19]
+                                        startTimeObject = datetime.datetime.strptime(docStartTime, "%m/%d/%Y %H:%M:%S")
+                                        docEndTime = lines[-1][0:19]
+                                        endTimeObject = datetime.datetime.strptime(docEndTime, "%m/%d/%Y %H:%M:%S")
+                                        totalTime = endTimeObject - startTimeObject
+
+                                        log(f"Total print time: {totalTime}")
+
                                         # if testLine does not throw an error, then clear out the entry
                                         workingFileDict.pop(keyList[i])
                                         log("File printed successfully - removing from WorkingFileDict")
                                         # if TestLine fails, send the email
-                                    except: 
+                                    except Exception as e:
+                                        log(str(e))
                                         # restart trulinx com service
                                         log("restarting trulinx com app")
                                         restartCommand = subprocess.run(["powershell", "-Command", restartTrulinxComApp], capture_output=True)
-                                        log(restartCommand.stdout.splitlines())
+                                        log(restartCommand.stdout.decode('utf-8'))
                                         log("Test Failed - Sending email")
                                         # Send Email
                                         sendEmail(message = f"Failed Auto Print \n\nTrulinx Service Restarted\n\n{docTime} - \n{keyList[i]} \n\nTotal items\n {', '.join(keyList)}", subject = "Failed Auto Print", emailTo = "cstogsdill@midwesthose.com", emailFrom = "mwhsupport@midwesthose.com")
