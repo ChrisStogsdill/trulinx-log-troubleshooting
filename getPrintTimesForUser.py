@@ -8,7 +8,7 @@ for file in os.listdir(tempLogsDir):
     with open(os.path.join(tempLogsDir, file), 'r') as f:
         readLines = f.readlines()
 
-        userName = 'OKCCOUNTER'
+        userName = 'mwhsupport'
         if userName in readLines[0]:
             print(f"Testing doc {file}")
             docStartTime = readLines[0][0:19]

@@ -9,19 +9,20 @@ for file in os.listdir(tempLogsDir):
     fileTime = datetime.fromtimestamp(os.path.getmtime(filePath))
     fileAge = currentTime - fileTime
 
-    # see if file is within 7 days old
-    if fileAge.days < 7:
-        with open(os.path.join(tempLogsDir, file), 'r') as f:
-            readLines = f.readlines()
-            counter = 0
-            
-            if 'No match found in system-defined printers.' in readLines[3]:
-                tempUserList = readLines[0].split(' ')
+    with open(os.path.join(tempLogsDir, file), 'r') as f:
+        readLines = f.readlines()
+        counter = 0
+        searchString  = 'No match found in system-defined printers.'
+
+        # Loop through readLines to find the line with the searchString
+        for line in readLines:
+            if searchString in line:
                 if tempUserList[-1] not in users:
                     users.append(tempUserList[-1])
                     print(readLines[0].strip('\n\r'))
                     print(readLines[2].strip('\n\r'))
                     print(readLines[3])
+                    continue
 
 
 
