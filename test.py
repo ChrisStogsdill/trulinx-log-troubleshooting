@@ -189,7 +189,7 @@ class InvoicedHandler:
         # auth_header = {'Authorization': 'Basic ' + self._api_key,
         #                'Content-Type': 'application/json'}
         username = 'itambura@midwesthose.com'
-        password = '-S6vt-xs8U!8nfM'
+        password = 
         # session = requests.Session()
         # session.auth = (username, password)
         # session.headers['X-API-Key'] = self._api_key
